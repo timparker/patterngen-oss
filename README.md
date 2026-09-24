@@ -31,6 +31,8 @@ npm run dev
 
 Open `http://localhost:5173` in your browser.
 
+To see it in action straight away, click **LOAD** and pick one of the demo scenes in [`examples/`](examples/).
+
 ## Usage
 
 ### Adding titles
