@@ -40,7 +40,7 @@ Click and drag to reposition. Drag off the canvas to remove.
 
 ### Adding pattern shapes
 
-PatternGen ships without built-in patterns. Add your own SVG shapes to `public/patterns/`:
+A starter set of seven shapes (one per animation type) lives in `public/patterns/`. Swap them out or add your own:
 
 1. Create a 40×40 px SVG
 2. Use `fill="white"` for the background rect and `fill="black"` / `stroke="black"` for foreground shapes

@@ -18,9 +18,13 @@ import type { PatternDef, PatternAnimType, ColorPair, SvgShapeInfo } from '../ty
  * at runtime, so keep fills as literal "black" and "white".
  */
 const PATTERN_FILES: { file: string; animType: PatternAnimType }[] = [
-  // Example (uncomment after adding SVGs to public/patterns/):
-  // { file: 'circle_fill.svg', animType: 'circle' },
-  // { file: 'square.svg', animType: 'square' },
+  { file: 'dots_grid.svg', animType: 'dots' },
+  { file: 'capsules.svg', animType: 'capsule' },
+  { file: 'circle_fill.svg', animType: 'circle' },
+  { file: 'arrow_up.svg', animType: 'arrow' },
+  { file: 'square_inset.svg', animType: 'square' },
+  { file: 'stripes_diagonal.svg', animType: 'stripes' },
+  { file: 'cross.svg', animType: 'cross' },
 ];
 
 function isBgRect(el: Element): boolean {
